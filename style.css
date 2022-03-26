@@ -1,39 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-
-*{
-
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-
 }
 
-.logo{
-
+.logo {
     width: 7em;
-
 }
 
-.logoConj{
-
+.logoConj {
     display: flex;
     align-items: center;
-
 }
 
-.logoP{
-
+.logoP {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     font-size: 1.8em;
     color: #3F1E18;
-
 }
 
-.cabecalho{
-
+.cabecalho {
     background-color: #F7CCAC;
     display: flex;
     flex-direction: row;
@@ -41,58 +30,48 @@
     justify-content: space-around;
     gap: 35em;
     border-bottom: solid 0.5em black;
-
 }
 
-.menu{
-
+.menu {
     display: flex;
     gap: 4em;
     margin-right: 4em;
-
 }
 
-.item-menu{
-
+.item-menu {
+    display: flex;
+    flex-direction: row;
     font-family: 'Permanent Marker', cursive;
     font-size: 1em;
     color: #3F1E18;
-
 }
 
-.infog{
-
+.infog {
     margin-top: 3em;
     width: 100%;
     height: 50em;
     border-radius: 8em;
-
 }
 
-.box1, .box2, .box{
-
+.box1,
+.box2,
+.box {
     width: 30em;
     border-radius: 2em;
-
 }
 
-.pform{
-
+.pform {
     padding-top: 3em;
     font-size: 2em;
     color: #3F1E18;
-
 }
 
-.label{
-
+.label {
     font-size: 1.5em;
     color: #3F1E18;
-
 }
 
-.box1{
-
+.box1 {
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -101,27 +80,21 @@
     height: 50em;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-
 }
 
-.input{
-
+.input {
     border: solid 0.4em #3F1E18;
-
 }
 
-.form{
-
+.form {
     display: flex;
     flex-direction: column;
     justify-items: center;
     padding-top: 2em;
     line-height: 1em;
-
 }
 
-.botao2{
-
+.botao2 {
     font-family: 'Permanent Marker', cursive;
     color: #F3EDD7;
     font-size: 1.4em;
@@ -131,25 +104,19 @@
     border-radius: 1em;
     background-color: #3F1E18;
     transition: all 0.3s ease-in-out;
-
 }
 
-.botao2:hover{
-
+.botao2:hover {
     background-color: #2b100d;
-
 }
 
-.titulo{
-
+.titulo {
     color: #F3EDD7;
     font-size: 4em;
     line-height: 1em;
-
 }
 
-.box2{
-
+.box2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -158,20 +125,16 @@
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     line-height: 2em;
-
 }
 
-.descricao{
-
+.descricao {
     padding-top: 1em;
     padding-bottom: 4em;
     font-size: 2em;
-    color: #F3EDD7
-
+    color: #F3EDD7;
 }
 
-.conteudo{
-
+.conteudo {
     background-image: url(./imagens/background.jpg);
     background-size: cover;
     padding-top: 3em;
@@ -181,42 +144,45 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     justify-items: center;
-
 }
 
-.rodape{
-
+.rodape {
     border-top: solid 0.5em black;
     background-color: #F7CCAC;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     gap: 5em;
     height: 5em;
-
 }
 
-.prodape{
-
+.prodape {
     font-family: 'Permanent Marker', cursive;
     font-size: 1.8em;
     color: #3F1E18;
-    margin-right: 15.6em;
-
+    margin-left: 2em;
 }
 
-.botao{
-
+.botao {
     padding: 0.2em;
     border-radius: 8em;
-
+    font-family: 'Permanent Marker', cursive;
+    background-color: black;
+    color: #F3EDD7;
+    font-size: 1em;
 }
 
-.botao3{
-
-    margin-right: 2em;
+.botao3 {
     padding: 0.2em;
     border-radius: 8em;
+    font-family: 'Permanent Marker', cursive;
+    background-color: black;
+    color: #F3EDD7;
+    font-size: 1em;
+    margin-right: 3em;
+}
 
+.icon-bottom {
+    margin-left: 3em;
 }
